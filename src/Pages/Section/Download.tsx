@@ -16,8 +16,7 @@ const Download = () => {
                 <h1> {t("GET THE APP")}
                     </h1>
                </span>
-                <p>
-                {t("You can now download our app on Android and iOS.Never be stranded with Rayan Taxi, book your cab from wherever you are, for as many of you as there are.")}
+                <p className='download_p'>{t("You can now download our app on Android and iOS.Never be stranded with Rayan Taxi, book your cab from wherever you are, for as many of you as there are.")}
                 </p>
                 <h6>
                     {t("Download E Taxi on iphone & Android market places.")}

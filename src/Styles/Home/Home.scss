@@ -218,7 +218,7 @@
                 .car_icon{
                     svg {
                         color: var(--primary);
-                        font-size: 60px;
+                        font-size: 4vw;
                     }
                 }
 
@@ -395,6 +395,7 @@
     }
 
     .Log_dev{
+        display: flex; flex-direction: column;
         .footer_logo{
             display: flex;justify-content: space-between;
             width: 50%;

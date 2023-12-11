@@ -28,7 +28,7 @@ const Offer = () => {
           <h3>{t("Request your ride")}</h3>
           <p>{t("Select from a wide range of options and get a ride in minutes or schedule one for later.")}</p>
         </div>
-        <div style={{marginTop:"-1em"}}>
+        <div style={{marginTop:"-.2vw"}}>
           <TbDeviceMobileMessage />
           <h3>{t("PAY with options")}</h3>
           <p>{t("Cash, card, or ETaxi credits, we’ve got you covered, Choose from multiple payment methods.")}</p>

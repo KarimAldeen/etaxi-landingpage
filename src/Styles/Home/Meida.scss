@@ -194,7 +194,7 @@ justify-content: center; align-items: center;
                 background: var(--secondary);
                 padding: 14px;
                 width: 30vw;
-                height: 35vw;
+                height: 40vw;
 
                 svg {
                     color: var(--primary);
@@ -211,7 +211,7 @@ justify-content: center; align-items: center;
                 }
 
                 p {
-                    font-size: 2vw;
+                    font-size: 1.7vw;
                     color: var(--bg);
                     margin-bottom: 0;
 
@@ -366,15 +366,19 @@ justify-content: center; align-items: center;
 }
 .ar{
 
-
+    .Download{
+        .download_p{
+            margin-right: -5vw;
+        }
+    }
 
 
     .Footer{
-        .company_name{
+        .Log_dev{
+            width: 15% !important;
         }
         .footer_logo{
-            display: flex;
-            text-align: start !important;
+            width: 100% !important;
         }
     }
 }
