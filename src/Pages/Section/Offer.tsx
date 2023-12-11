@@ -17,9 +17,7 @@ const Offer = () => {
       </div>
       <div>
         <p>
-          Lorem Ipsum is that it has a more-or-less normal distribution
-          of letters, as opposed to using 'Content here, content here',
-          making it look like readable English.
+          {t('Our App is Build To Make The User fill Good and take Best Service with our driver  with Good Price trip  and Great Customer Services for help with any problem')}
         </p>
       </div>
       <span>
@@ -28,7 +26,7 @@ const Offer = () => {
           <h3>{t("Request your ride")}</h3>
           <p>{t("Select from a wide range of options and get a ride in minutes or schedule one for later.")}</p>
         </div>
-        <div style={{marginTop:"-.2vw"}}>
+        <div >
           <TbDeviceMobileMessage />
           <h3>{t("PAY with options")}</h3>
           <p>{t("Cash, card, or ETaxi credits, we’ve got you covered, Choose from multiple payment methods.")}</p>
