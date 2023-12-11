@@ -16,7 +16,7 @@ const Download = () => {
             duration:2
           }}
         className='Download'>
-            <h5 className='fake_point' id='Download'></h5>
+            <h5 className='fake_point' id='Download' style={{opacity:0}}>.</h5>
             <span>
                 <img src="../image/DownloadImage.png" alt="DownloadImage" />
             </span>
