@@ -16,7 +16,7 @@ const Header = () => {
         <a href="#Home">{t("Home")}</a>
         <a href="#Offer">{t("Offer")}</a>
         <a href="#Download">{t("Download")}</a>
-        <a href="#Cars">{t("Cars")}</a>
+        {/* <a href="#Cars">{t("Cars")}</a> */}
         <a href="#Driver">{t("Drivers")}</a>
         <a href="#Client">{t("Client")}</a>
       </div>
@@ -38,7 +38,7 @@ const Header = () => {
             <a href="#Home">{t("Home")}</a>
             <a href="#Offer">{t("Offer")}</a>
             <a href="#Download">{t("Download")}</a>
-            <a href="#Cars">{t("Cars")}</a>
+            {/* <a href="#Cars">{t("Cars")}</a> */}
             <a href="#Driver">{t("Drivers")}</a>
             <a href="#Client">{t("Client")}</a>
             </div>

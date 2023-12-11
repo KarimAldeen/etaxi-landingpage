@@ -72,12 +72,12 @@ const Footer = () => {
               </a>
             </p>
             <p>
-              <a href="#Cars" className="text-reset">
-              {t("Cars")}
+              <a href="#Client" className="text-reset">
+              {t("Client")}
               </a>
             </p>
             <p>
-              <a href="#Driver" className="text-reset">
+              <a href="#Drivers" className="text-reset">
               {t("Driver")}
               </a>
             </p>
