@@ -4,11 +4,11 @@ import WithDrawer from '../../HighOrderComponent/WithDrawer'
 import { Button } from 'antd'
 import Translate from '../../Components/Utils/Translate'
 import { useTranslation } from 'react-i18next';
-
+import {motion} from 'framer-motion'
 const Header = () => {
   const {t} = useTranslation();
   return (
-    <div className='Header'>
+    <motion.div className='Header'>
       <div>
         <img className='Logo' src="../image/etaxlogo.svg" alt="Logo" />
       </div>
@@ -45,7 +45,7 @@ const Header = () => {
           </WithDrawer>
         </div>
       </div>
-    </div>
+    </motion.div>
   )
 }
 
