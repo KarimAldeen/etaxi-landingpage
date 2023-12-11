@@ -25,9 +25,10 @@ export const useChangeLanguage= () => {
       if (currentlanguage=== 'ar') {
         i18n.changeLanguage('ar'); 
         document.body.setAttribute('dir', 'rtl'); document.body.classList.add('ar');
+
       } else {
         i18n.changeLanguage('en'); 
-        document.body.setAttribute('dir', 'ltr'); document.body.classList.add('en')
+        document.body.setAttribute('dir', 'ltr'); document.body.classList.remove('ar')
       }
   
       localStorage.setItem('language', currentlanguage);
