@@ -16,23 +16,23 @@
         
     }
 
-    img {
+    .Logo {
         width: 7vw;
         height: 7vw;
         @include Glitch;
     }
 
-    button {
-        all: unset;
-        background: var(--secondary);
-        color: var(--bg);
-        border-radius: 28px;
-        width: 10vw;
-        padding: 10px 2vw;
-        font-weight: bold;
-        text-wrap: nowrap;
-        text-align: center;
-    }
+    // button {
+    //     all: unset;
+    //     background: var(--secondary);
+    //     color: var(--bg);
+    //     border-radius: 28px;
+    //     width: 2w;
+    //     padding: 10px 2vw;
+    //     font-weight: bold;
+    //     text-wrap: nowrap;
+    //     text-align: center;
+    // }
 
     .Links {
         display: flex;

@@ -2,12 +2,14 @@ import React from 'react'
 import { BsMenuButtonWideFill } from 'react-icons/bs'
 import WithDrawer from '../../HighOrderComponent/WithDrawer'
 import { Button } from 'antd'
+import Theme from '../../Components/Utils/Theme'
+import Translate from '../../Components/Utils/Translate'
 
 const Header = () => {
   return (
     <div className='Header'>
       <div>
-        <img src="../image/etaxlogo.svg" alt="Logo" />
+        <img className='Logo' src="../image/etaxlogo.svg" alt="Logo" />
       </div>
       <div className='Links none'>
         <a href="#Home">Home</a>
@@ -18,9 +20,12 @@ const Header = () => {
         <a href="#Client">Client</a>
       </div>
       <div>
-        <button className='none'>
+        {/* <button className='none'>
           sign in
-        </button>
+        </button> */}
+        <div>
+          <Translate/>
+        </div>
         <div className='Header_Menu'>
 
           <WithDrawer

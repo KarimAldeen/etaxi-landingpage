@@ -9,14 +9,14 @@ const Translate: React.FC = () => {
 
   const EnLanguage = memo(() => (
     <div className="MenuChange" onClick={EnLanguageClickHandler}>
-       <img alt='' src='../Layout/En.svg' width={20} height={20} /> 
+       <img className='ms-1 me-1' alt='' src='../Layout/En.svg' width={20} height={20} /> 
       {t('En')}
     </div>
   ));
   
   const ArLanguage = memo(() => (
     <div  className="MenuChange" onClick={ArLanguageClickHandler}>
-      <img alt='' src='../Layout/Ar.svg' width={20} height={20} /> 
+      <img className='ms-1 me-1' alt='' src='../Layout/Ar.svg' width={20} height={20} /> 
       {t('Ar')}
     </div>
   ));
@@ -44,7 +44,7 @@ const Translate: React.FC = () => {
   return (
     <Space direction="vertical">
       <Dropdown menu={{ items }} placement="top">
-        <Button disabled>{currentlanguage === 'en' ? <EnLanguage /> : <ArLanguage />}</Button>
+        <Button className='d-flex align-align-items-center justify-content-center g-2' disabled>{currentlanguage === 'en' ? <EnLanguage /> : <ArLanguage />}</Button>
       </Dropdown>
     </Space>
   );
