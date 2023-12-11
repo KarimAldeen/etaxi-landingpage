@@ -397,12 +397,14 @@
     .Log_dev{
         display: flex; flex-direction: column;
         .footer_logo{
+            margin: auto;
+            align-items: center;
             display: flex;justify-content: space-between;
             width: 50%;
             .logo{
-                width: 40%;
+                width: 80%;
                 .FooterLogo{
-                    width: 80% !important;
+                    width: 50% !important;
                 }
             }
             .best_partner{

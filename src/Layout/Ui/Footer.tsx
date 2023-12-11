@@ -32,30 +32,7 @@ const Footer = () => {
           </div>
           {/* Grid column */}
           {/* Grid column */}
-          <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-            {/* Links */}
-            <h6 className="text-uppercase fw-bold mb-4">{t("Vehicles Types")}</h6>
-            <p>
-              <a href="#!" className="text-reset">
-              {t("Luxury")}
-              </a>
-            </p>
-            <p>
-              <a href="#!" className="text-reset">
-              {t("Economy")}
-              </a>
-            </p>
-            <p>
-              <a href="#!" className="text-reset">
-              {t("Standard")}
-              </a>
-            </p>
-            <p>
-              <a href="#!" className="text-reset">
-              {t("Minicvan")}
-              </a>
-            </p>
-          </div>
+          
           {/* Grid column */}
           {/* Grid column */}
           <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
