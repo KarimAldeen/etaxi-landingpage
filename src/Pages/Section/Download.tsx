@@ -1,11 +1,21 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
+import {motion} from 'framer-motion'
 
 const Download = () => {
     const {t} = useTranslation()
 
     return (
-        <div className='Download'>
+        <motion.div
+        
+        whileInView={{
+           opacity:[0,0.4,0.6,1]
+          }}
+         
+          transition={{
+            duration:2
+          }}
+        className='Download'>
             <h5 className='fake_point' id='Download'></h5>
             <span>
                 <img src="../image/DownloadImage.png" alt="DownloadImage" />
@@ -26,7 +36,7 @@ const Download = () => {
                     <a href='https://play.google.com/store/games' className='second_image'><img src="assets/images/icons/google-play.png" alt="Google" /></a>
                 </div>
             </div>
-        </div>
+        </motion.div>
     )
 }
 

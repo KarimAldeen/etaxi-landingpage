@@ -2,12 +2,21 @@ import React from 'react'
 import { useTranslation } from 'react-i18next';
 import { BsFillArrowUpLeftSquareFill } from 'react-icons/bs'
 import { MdOutlineChevronRight } from "react-icons/md";
-
+import {motion} from 'framer-motion'
 const Drivers = () => {
   const {t} = useTranslation()
 
   return (
-    <div className='Drivers'>
+    <motion.div 
+    whileInView={{
+      scale:[0.8,1.07,1],
+     opacity:[0,0.4,0.6,1]
+    }}
+   
+    transition={{
+      duration:1
+    }}
+    className='Drivers'>
       <h5 className='fake_point' id='Driver'></h5>
       <div>
         <h4>{t("For Drivers")}</h4>
@@ -52,7 +61,7 @@ const Drivers = () => {
         <button>{t("BECOME DRIVER")}</button>
       </div>
       <span><img src="../image/Location.png" alt="" /></span>
-    </div>
+    </motion.div>
   )
 }
 
