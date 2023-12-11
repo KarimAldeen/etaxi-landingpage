@@ -8,7 +8,6 @@ const Header = () => {
     <div className='Header'>
       <div>
         <img src="../image/etaxlogo.svg" alt="Logo" />
-
       </div>
       <div className='Links none'>
         <a href="#Home">Home</a>
