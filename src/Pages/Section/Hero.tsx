@@ -12,12 +12,10 @@ const Hero = () => {
          animate={{
     
           scale: 1,
-          rotate: 0,
         }}
         initial={{
         
           scale: 0,
-          rotate: 360,
         }}
         transition={{
           duration:1
