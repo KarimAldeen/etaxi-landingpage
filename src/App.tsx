@@ -2,6 +2,7 @@ import {lazy, Suspense } from 'react';
 import { Route, Routes } from 'react-router-dom'
 import Loading from './Components/Utils/Loading/Loading';
 import Page from './Pages/Home/Page';
+import TrackOrderTrips from './Pages/TrackOrderTrips/TrackOrderTrips';
 const Page404 = lazy(() => import("./Layout/Ui/NotFoundPage"))
 
 const App = () => {
@@ -11,6 +12,7 @@ const App = () => {
     <Routes>
       <Route path="*" element={<Suspense fallback={<Loading />}> <Page404 /></Suspense>} />
       <Route path="/" element={<Suspense fallback={<Loading />}> <Page /></Suspense>} />
+      <Route path="/track" element={<Suspense fallback={<Loading />}> <TrackOrderTrips /></Suspense>} />
 
     </Routes>
 
