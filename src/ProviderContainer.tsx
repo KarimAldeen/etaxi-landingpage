@@ -2,15 +2,16 @@ import QueryProvider from './lib/ReactQueryProvider'
 import { BrowserRouter } from 'react-router-dom'
 import ReduxT from './lib/ReduxT'
 import { Tchildren } from './Layout/app/Types'
+import ToastProvider from './lib/ToastProvider'
 
 function ProviderContainer({children}:Tchildren) {
   return (
  <BrowserRouter basename='/'>
         {/* <ReduxT> */}
      <QueryProvider>
-        {/* <ToastProvider> */}
+        <ToastProvider>
              {children}
-        {/* </ToastProvider> */}
+        </ToastProvider>
     </QueryProvider>
     {/* </ReduxT> */}
 </BrowserRouter>
